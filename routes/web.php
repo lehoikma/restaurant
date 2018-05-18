@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', function(){
+    Artisan::call('migrate');
+    Artisan::call('db:seed');
+});
