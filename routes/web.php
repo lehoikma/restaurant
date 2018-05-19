@@ -11,11 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/test', function(){
     Artisan::call('migrate');
     Artisan::call('db:seed');
+});
+
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function () {
+    // LOGIN
+    Route::get('/', 'LoginController@index')->name('admin_login');
+    Route::get('login', 'LoginController@formLogin')->name('login');
+    Route::post('login', 'LoginController@login')->name('check_login');
+    Route::get('logout', 'LoginController@logout')->name('logout');
+});
+
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth'], function () {
+    Route::get('/top', 'TopController@index')->name('admin_top');
+
+    Route::get('/gioi-thieu', 'IntroducesController@index')->name('introduces');
+    Route::post('/save-gioi-thieu', 'IntroducesController@saveIntroduces')->name('save_introduces');
 });
