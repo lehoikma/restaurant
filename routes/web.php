@@ -45,4 +45,12 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
     Route::get('/sua-san-pham/{id}', 'ProductsController@showEditProducts')->name('show_edit_products');
     Route::post('/sua-san-pham', 'ProductsController@editProducts')->name('edit_products');
     Route::get('/xoa-san-pham/{id}', 'ProductsController@deleteProducts')->name('delete_products');
+
+    // SLIDE
+    Route::get('/tao-slide', 'SlidesController@createSlides')->name('create_slide');
+    Route::post('/tao-slide', 'SlidesController@saveSlides')->name('save_slide');
+    Route::get('/sua-slide/{id}', 'SlidesController@showEditSlide')->name('show_edit_slide');
+    Route::post('/sua-slide', 'SlidesController@editSlide')->name('edit_slide');
+    Route::get('/xoa-slide/{id}', 'SlidesController@deleteSlide')->name('delete_slide');
+    Route::get('/danh-sach-slide', 'SlidesController@listSlides')->name('list_slide');
 });

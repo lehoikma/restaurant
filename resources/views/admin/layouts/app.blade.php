@@ -111,8 +111,8 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href=""><i class="fa fa-circle-o"></i> Tạo Slide</a></li>
-                        <li><a href=""><i class="fa fa-circle-o"></i> Danh Sách Slide</a></li>
+                        <li><a href="{{route('create_slide')}}"><i class="fa fa-circle-o"></i> Tạo Slide</a></li>
+                        <li><a href="{{route('list_slide')}}"><i class="fa fa-circle-o"></i> Danh Sách Slide</a></li>
                     </ul>
                 </li>
 
