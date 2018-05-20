@@ -90,15 +90,15 @@
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-files-o"></i>
-                        <span>Sản Phẩm</span>
+                        <span>Món Ăn</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
                     <ul class="treeview-menu">
                         {{--<li><a href=""><i class="fa fa-circle-o"></i> Tạo Danh Mục Sản Phẩm</a></li>--}}
-                        <li><a href=""><i class="fa fa-circle-o"></i> Tạo Sản Phẩm</a></li>
-                        <li><a href=""><i class="fa fa-circle-o"></i> Danh Sách Sản Phẩm</a></li>
+                        <li><a href="{{route('form_products')}}"><i class="fa fa-circle-o"></i> Tạo Món Ăn</a></li>
+                        <li><a href="{{route('list_products')}}"><i class="fa fa-circle-o"></i> Danh Sách Món Ăn</a></li>
                     </ul>
                 </li>
 
