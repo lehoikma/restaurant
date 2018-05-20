@@ -53,4 +53,11 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
     Route::post('/sua-slide', 'SlidesController@editSlide')->name('edit_slide');
     Route::get('/xoa-slide/{id}', 'SlidesController@deleteSlide')->name('delete_slide');
     Route::get('/danh-sach-slide', 'SlidesController@listSlides')->name('list_slide');
+
+    //VIDEO
+    Route::get('/tao-videos', 'VideosController@registerVideos')->name('register_videos');
+    Route::post('/luu-videos', 'VideosController@saveVideos')->name('save_register_videos');
+    Route::get('/danh-sach-videos', 'VideosController@listVideos')->name('list_videos');
+    Route::get('/xoa-videos/{id}', 'VideosController@deleteVideos')->name('delete_videos');
+
 });

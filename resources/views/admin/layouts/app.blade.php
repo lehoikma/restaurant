@@ -124,8 +124,8 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href=""><i class="fa fa-circle-o"></i> Tạo Videos</a></li>
-                        <li><a href=""><i class="fa fa-circle-o"></i> Tất cả Videos</a></li>
+                        <li><a href="{{route('register_videos')}}"><i class="fa fa-circle-o"></i> Tạo Videos</a></li>
+                        <li><a href="{{route('list_videos')}}"><i class="fa fa-circle-o"></i> Tất cả Videos</a></li>
                     </ul>
                 </li>
 
