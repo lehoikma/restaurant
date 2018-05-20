@@ -1,6 +1,6 @@
 <div class="container">
     <div class="card card-container">
-        <img id="profile-img" class="profile-img-card" src="/image/logo.png"/>
+        <img id="profile-img" class="profile-img-card" src="/image/logo5.png"/>
         <p id="profile-name" class="profile-name-card"></p>
         <form class="form-signin" method="post" action="{{route('check_login')}}">
             {{csrf_field()}}

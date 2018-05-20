@@ -29,4 +29,20 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
 
     Route::get('/gioi-thieu', 'IntroducesController@index')->name('introduces');
     Route::post('/save-gioi-thieu', 'IntroducesController@saveIntroduces')->name('save_introduces');
+
+    // NEWS
+    Route::get('/tao-tin-tuc', 'NewsController@createNews')->name('form_news');
+    Route::post('/tao-tin-tuc', 'NewsController@saveNews')->name('save_news');
+    Route::get('/danh-sach-tin-tuc', 'NewsController@listNews')->name('list_news');
+    Route::get('/sua-tin-tuc/{id}', 'NewsController@showEditNews')->name('show_edit_news');
+    Route::post('/sua-tin-tuc', 'NewsController@editNews')->name('edit_news');
+    Route::get('/xoa-tin-tuc/{id}', 'NewsController@deleteNews')->name('delete_news');
+
+    // PRODUCTS
+    Route::get('/tao-san-pham', 'ProductsController@createProducts')->name('form_products');
+    Route::post('/tao-san-pham', 'ProductsController@saveProducts')->name('save_products');
+    Route::get('/danh-sach-san-pham', 'ProductsController@listProducts')->name('list_products');
+    Route::get('/sua-san-pham/{id}', 'ProductsController@showEditProducts')->name('show_edit_products');
+    Route::post('/sua-san-pham', 'ProductsController@editProducts')->name('edit_products');
+    Route::get('/xoa-san-pham/{id}', 'ProductsController@deleteProducts')->name('delete_products');
 });

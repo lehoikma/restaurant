@@ -8,7 +8,7 @@
         <div class="small-box bg-aqua">
             <div class="inner">
                 <h3> 12 </h3>
-                <p>Sản Phẩm</p>
+                <p>Giới Thiệu</p>
             </div>
             <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -38,7 +38,7 @@
             <div class="inner">
                 <h3>3</h3>
 
-                <p>Hình Ảnh</p>
+                <p>Sản Phẩm</p>
             </div>
             <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -53,7 +53,7 @@
             <div class="inner">
                 <h3>3</h3>
 
-                <p>Videos</p>
+                <p>Slide</p>
             </div>
             <div class="icon">
                 <i class="ion ion-pie-graph"></i>
