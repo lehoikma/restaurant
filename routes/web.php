@@ -61,3 +61,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
     Route::get('/xoa-videos/{id}', 'VideosController@deleteVideos')->name('delete_videos');
 
 });
+
+Route::group(['namespace' => 'User'], function () {
+    Route::get('/', 'TopController@index')->name('user_top');
+});
