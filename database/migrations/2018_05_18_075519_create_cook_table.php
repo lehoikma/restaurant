@@ -13,7 +13,7 @@ class CreateCookTable extends Migration
      */
     public function up()
     {
-        Schema::create('cookTable', function (Blueprint $table) {
+        Schema::create('cooktable', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->text('content')->nullable();

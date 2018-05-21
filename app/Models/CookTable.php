@@ -9,7 +9,7 @@ class CookTable extends Model
 {
     use SoftDeletes;
 
-    protected $table = 'cookTable';
+    protected $table = 'cooktable';
     /**
      * The attributes that are mass assignable.
      *
