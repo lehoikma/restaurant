@@ -92,14 +92,19 @@
             <div id="myNavbar" class="navbar-collapse noPadding collapse" style="height: 1px;">
                 <div class="menustyle _lg_fr">
                     <ul class="nav navbar-nav  sm" data-smartmenus-id="1526812798300609" style="font-size: 22px !important;font-family: monospace;font-weight: bold;">
-                        <li class="active"><a class="active" title="Trang chủ" href="/">Trang chủ</a></li>
-                        <li class=""><a title="Giới thiệu" href="/gioi-thieu.html">Giới thiệu</a></li>
-                        <li class=""><a title="Hệ Thống Hẻm" href="/he-thong-hem">Hệ Thống Hẻm</a></li>
-                        <li class="hash">
-                            <a title="Menu" href="#" class="has-submenu">Menu</a>
+                        <li class="menu-active">
+                            <a class="" title="Trang chủ" href="{{route('user_top')}}">Trang chủ</a></li>
+                        <li class="menu-active">
+                            <a title="Giới thiệu" href="/gioi-thieu.html">Giới thiệu</a></li>
+                        <li class="menu-active">
+                            <a title="Menu" href="{{route('menu')}}" class="has-submenu">Menu</a>
                         </li>
-                        <li class=""><a title="Blog" href="/blog">Blog</a></li>
-                        <li class="menu_contact"><a title="Liên hệ" href="#contact">Liên hệ</a></li>
+                        <li class="menu-active">
+                            <a title="Blog" href="{{route('news')}}">Blog</a>
+                        </li>
+                        <li class="menu-active">
+                            <a title="Liên hệ" href="#contact">Liên hệ</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -126,6 +131,17 @@
     $(window).load(function() {
         $('#slider').nivoSlider({
             controlNav: false
+        });
+
+    });
+
+    $(function() {
+        var href = window.location.href;
+        $('li.menu-active a').each(function(e,i) {
+            if (href.indexOf($(this).attr('href')) >= 0) {
+                $('li.menu-active').removeClass('active');
+                $(this).parent().addClass('active');
+            }
         });
 
     });
