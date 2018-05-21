@@ -2,6 +2,13 @@
     .container {
         width: 1000px !important;
     }
+    .theme-default .nivoSlider img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+        height: 419px;
+    }
 }
 
 @media screen and (max-width: 600px) {
