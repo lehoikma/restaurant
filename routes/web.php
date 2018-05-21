@@ -64,6 +64,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
 
 Route::group(['namespace' => 'User'], function () {
     Route::get('/', 'TopController@index')->name('user_top');
+    Route::get('gioi-thieu', 'IntroducesController@index')->name('introduces_user');
     Route::get('menu', 'CookTableController@index')->name('menu');
     Route::get('tin-tuc', 'NewsController@index')->name('news');
 });

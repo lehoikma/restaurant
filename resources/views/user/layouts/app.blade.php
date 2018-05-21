@@ -95,7 +95,7 @@
                         <li class="menu-active">
                             <a class="" title="Trang chủ" href="{{route('user_top')}}">Trang chủ</a></li>
                         <li class="menu-active">
-                            <a title="Giới thiệu" href="/gioi-thieu.html">Giới thiệu</a></li>
+                            <a title="Giới thiệu" href="{{route('introduces_user')}}">Giới thiệu</a></li>
                         <li class="menu-active">
                             <a title="Menu" href="{{route('menu')}}" class="has-submenu">Menu</a>
                         </li>
