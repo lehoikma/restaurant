@@ -26,7 +26,7 @@
                 </a>
                 <h3 class="">
                     <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">{{mb_strtoupper($cookTable['name'], 'UTF-8')}}</a></h3>
-                <p>Giá : {{!empty($cookTable['price']) ? $cookTable['price'] : 'Liên hệ'}}</p>
+                <p>Giá : {{!empty($cookTable['price']) ? number_format($cookTable['price']). ' VNĐ' : 'Liên hệ'}}</p>
             </div>
             @endforeach
         </div>

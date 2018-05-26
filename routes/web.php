@@ -67,4 +67,5 @@ Route::group(['namespace' => 'User'], function () {
     Route::get('gioi-thieu', 'IntroducesController@index')->name('introduces_user');
     Route::get('menu', 'CookTableController@index')->name('menu');
     Route::get('tin-tuc', 'NewsController@index')->name('news');
+    Route::get('tin-tuc/{name}/{id}', 'NewsController@detail')->name('news_detail');
 });

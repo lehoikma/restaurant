@@ -14,11 +14,19 @@ class NewsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    public function index() {
         $news = News::all();
         return view('user.news.index', [
             'news' => $news
+        ]);
+    }
+
+    public function detail($name, $id) {
+        $news = News::find($id);
+        $follow = News::inRandomOrder()->take(3)->get();
+        return view('user.news.detail', [
+            'news' => $news,
+            'follow' => $follow
         ]);
     }
 }

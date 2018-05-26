@@ -10,7 +10,10 @@
                     <div class="row">
                         <div class="col-sm-12 list_content">
                             <p class="list_title">
-                                <a href="" title="{{$value['title']}}">{{$value['title']}}</a>
+                                <a href="{{route('news_detail', [
+                                'name' => str_slug($value['title']),
+                                'id' => $value['id']
+                                ])}}" title="{{$value['title']}}">{{$value['title']}}</a>
                             </p>
                         </div>
                         <div class="col-sm-12 list_thumb">

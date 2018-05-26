@@ -8,7 +8,7 @@
     <meta name="title" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -16,11 +16,11 @@
 
     {{--Slide--}}
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -91,7 +91,7 @@
             </div>
             <div id="myNavbar" class="navbar-collapse noPadding collapse" style="height: 1px;">
                 <div class="menustyle _lg_fr">
-                    <ul class="nav navbar-nav  sm" data-smartmenus-id="1526812798300609" style="font-size: 22px !important;font-family: monospace;font-weight: bold;">
+                    <ul class="nav navbar-nav  sm" data-smartmenus-id="1526812798300609" style="margin-left:-15px;font-size: 22px !important;font-family: monospace;font-weight: bold;">
                         <li class="menu-active">
                             <a class="" title="Trang chủ" href="{{route('user_top')}}">Trang chủ</a></li>
                         <li class="menu-active">
@@ -126,7 +126,7 @@
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="/nivo-slider/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider({
