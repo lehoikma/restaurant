@@ -48,8 +48,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2 top_logo">
-                <a href="http://hemquan.vn/" class="logo" title="quangcao4k.com">
-                    <img src="http://hemquan.vn/images/uploads/logo/xlogo2_228f1.png.pagespeed.ic.1dWTpgJyN6.webp">
+                <a href="/" class="logo">
+                    <img src="image/logo5.png">
                 </a>
             </div>
             <div class="_top_cart" style="float: right;padding-top: 15px;">
@@ -115,7 +115,7 @@
 <div class="footer" style="background: #8fcc6d; width: 100%; float: left; margin-top: 30px;">
     <div class="container" style="padding-top: 5px; padding-bottom: 0px;">
         <div class="blog1" style="width: 85%; float: left; padding: 20px;">
-            <img width="275" height="150" src="http://hemquan.vn/images/img/xlogofooter1_2292a.png.pagespeed.ic.YvQZ4uYwrz.webp">
+            <img width="275" height="150" src="image/logo5.png">
             <p style="color: #fff; padding-top: 0px; padding-right: 20px; float: right;">Đơn vị chủ quản: Tập Đoàn Thành Đô<br>
                 Tòa nhà Plaschem, 562 Nguyễn Văn Cừ, Long Biên, Hà Nội<br>
                 Tel: 0243.652.7766 hoặc DĐ: 0913.311.678<br>

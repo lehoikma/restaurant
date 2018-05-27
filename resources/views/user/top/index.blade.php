@@ -36,25 +36,25 @@
                 <a href="">
                     <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
                 </a>
-                <h3 class="">
-                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">KHOAI TÂY CHIÊN</a></h3>
-                <p>Giá : Liên hệ</p>
+                <h3 class="" style="text-align: center">
+                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Giới Thiệu</a>
+                </h3>
             </div>
             <div class="col-sm-4 col-md-4 col-xs-12 lg_pr50 lg_pl0" style="padding: 25px;">
                 <a href="">
                     <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
                 </a>
-                <h3 class="">
-                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">KHOAI TÂY CHIÊN</a></h3>
-                <p>Giá : Liên hệ</p>
+                <h3 class="" style="text-align: center">
+                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Tin Tức</a>
+                </h3>
             </div>
             <div class="col-sm-4 col-md-4 col-xs-12 lg_pr50 lg_pl0" style="padding: 25px;">
                 <a href="">
                     <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
                 </a>
-                <h3 class="">
-                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">KHOAI TÂY CHIÊN</a></h3>
-                <p>Giá : Liên hệ</p>
+                <h3 class="" style="text-align: center">
+                    <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Liên Hệ</a>
+                </h3>
             </div>
         </div>
     </div>
