@@ -31,7 +31,26 @@
     bottom: 50px;
     height: 50px;
     width: 50px;
-    background: #f06292 url(http://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat;
+    background: #f06292 url(image/callbutton01.png) center / 30px no-repeat;
+    z-index: 99;
+    color: #FFF;
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);">
+    <i class="uk-icon-phone"></i>
+</a>
+
+<a href="https://www.facebook.com/huan.nguyen.92775838/?ref=bookmarks" id="floating1-phone" style="
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    background: url(image/messsage.jpg) center / 30px no-repeat;
     z-index: 99;
     color: #FFF;
     font-size: 35px;

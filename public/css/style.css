@@ -28,6 +28,9 @@
     .item-follow {
         padding: 0px!important;
     }
+    #floating1-phone {
+        display: none;
+    }
 }
 .navbar-default .navbar-nav > .active{
     color: #000;
