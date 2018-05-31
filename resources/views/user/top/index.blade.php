@@ -34,7 +34,7 @@
         <div class="container">
             <div class="col-sm-4 col-md-4 col-xs-12 lg_pr50 lg_pl0" style="padding: 25px;">
                 <a href="">
-                    <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
+                    <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%; height: 200px;">
                 </a>
                 <h3 class="" style="text-align: center">
                     <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Giới Thiệu</a>
@@ -42,7 +42,7 @@
             </div>
             <div class="col-sm-4 col-md-4 col-xs-12 lg_pr50 lg_pl0" style="padding: 25px;">
                 <a href="">
-                    <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
+                    <img src="image/tin-tuc.jpg" class="fw main_img" style="width: 100%; height: 200px;">
                 </a>
                 <h3 class="" style="text-align: center">
                     <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Tin Tức</a>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-sm-4 col-md-4 col-xs-12 lg_pr50 lg_pl0" style="padding: 25px;">
                 <a href="">
-                    <img src="http://hemquan.vn/images/source/thumb/x16.png.pagespeed.ic.yLq6VK-FqJ.webp" class="fw main_img" style="width: 100%">
+                    <img src="image/lien-he.png" class="fw main_img" style="width: 100%; height: 200px;">
                 </a>
                 <h3 class="" style="text-align: center">
                     <a href="" class="" style="font-size: 20px;color: #6b492a;font-family: myria;">Liên Hệ</a>
